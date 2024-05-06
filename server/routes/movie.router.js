@@ -18,6 +18,20 @@ router.get('/', (req, res) => {
 
 });
 
+router.get('/:id', (req,res) => {
+  // need to JOIN to get selected movie genres as well
+  const sqlText = `
+  SELECT * FROM "movies" 
+  WHERE 'id' = $1;
+  `;
+  pool.query(sqlText, [req.params.id]).then(result => {
+    res.send(result.rows);
+  }).catch(error => {
+    console.log(error);
+    res.sendStatus(500)
+  })
+})
+
 router.post('/', (req, res) => {
   console.log(req.body);
   // RETURNING "id" will give us back the id of the created movie
