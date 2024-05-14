@@ -13,7 +13,6 @@ function MovieList() {
   }, []);
 
   const toDetails = (id) => {
-    dispatch({ type: 'GET_GENRES', payload: id});
     history.push(`/${id}`)
   };
   return (
