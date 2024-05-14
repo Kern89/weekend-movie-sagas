@@ -20,7 +20,7 @@ function DetailsView() {
     }
     if (selectedDetails[0]) {
         return(
-            <div key={selectedDetails[0].id}>
+            <div key={selectedDetails[0].id} data-testid="movieDetails">
             <h3>{selectedDetails[0].title}</h3>
             <img src={selectedDetails[0].poster} alt={selectedDetails[0].title}/>
             <br />

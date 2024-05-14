@@ -14,7 +14,7 @@ function App() {
           <MovieList />
         </Route>
         <Route path="/:id">
-          <DetailsView data-testid="movieDetails"/>
+          <DetailsView />
         </Route>
         {/* Details page */}
 
