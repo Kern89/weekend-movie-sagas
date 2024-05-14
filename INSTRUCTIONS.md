@@ -48,7 +48,7 @@ It is also worth noting that some of the pre-existing code will only be necessar
 
 - [x] This view displays all of the movies in the movie database. 
 
-- [ ] When a movie poster (`<img>` element) is clicked, a user should be brought to the details page.
+- [X] When a movie poster (`<img>` element) is clicked, a user should be brought to the details page.
 
 - [x] Each of the "movie items" on this page each must have a `data-testid="movieItem"` attribute.
 
@@ -57,9 +57,9 @@ It is also worth noting that some of the pre-existing code will only be necessar
 
 ### Details Page
 
-- [ ] This view should show all details **including ALL the genres** for the selected movie, as well as the title, description, and poster image. Use Sagas and Redux to handle these requests and data. 
+- [X] This view should show all details **including ALL the genres** for the selected movie, as well as the title, description, and poster image. Use Sagas and Redux to handle these requests and data. 
 
-- [ ] The details page must have a `data-testid="movieDetails"` attribute.
+- [X] The details page must have a `data-testid="movieDetails"` attribute.
 
 - [X] The details page must have a "back to movie list" button, which should bring the user back to the Home/List Page.
 

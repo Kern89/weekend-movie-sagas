@@ -4,6 +4,8 @@ import DetailsView from '../Details/Details';
 import './App.css';
 
 function App() {
+
+
   return (
     <div className="App">
       <h1>The Movies Saga!</h1>
@@ -12,7 +14,7 @@ function App() {
           <MovieList />
         </Route>
         <Route path="/:id">
-          <DetailsView />
+          <DetailsView data-testid="movieDetails"/>
         </Route>
         {/* Details page */}
 
