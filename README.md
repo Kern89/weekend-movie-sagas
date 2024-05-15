@@ -1,9 +1,7 @@
 # Project Name
 
-[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md
+Movie Lister
 
 ## Description
 
-Your project description goes here. What problem did you solve? How did you solve it?
-
-Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
+Movie Lister is the perfect app for the film fanatic to check out some of our favorite movies, with genres and descriptions ready for you to browse. future updates to allow users to add to the list themselves.
