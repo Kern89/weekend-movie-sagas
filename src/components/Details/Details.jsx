@@ -20,6 +20,7 @@ function DetailsView() {
     }
     if (selectedDetails[0]) {
         return(
+            // get description to wrap the side of other details
             <div key={selectedDetails[0].id} data-testid="movieDetails">
             <h3>{selectedDetails[0].title}</h3>
             <img src={selectedDetails[0].poster} alt={selectedDetails[0].title}/>
@@ -29,7 +30,7 @@ function DetailsView() {
                     {movie.name}
                 </h6>
             ))}
-            <p>{selectedDetails[0].description}</p> 
+            <p id="description">{selectedDetails[0].description}</p> 
             <Button onClick={goToMovieList} data-testid="toList" >Back to movie list</Button>
             </div>
         )
